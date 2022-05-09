@@ -1,0 +1,7 @@
+^test_data$
+^devel$
+^update_version\.sh$
+^setup_proj\.R$
+^README\.html$
+^init\.r$
+^LICENSE\.md$

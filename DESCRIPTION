@@ -1,0 +1,56 @@
+Package: TemplateR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    assertthat,
+    caret,
+    data.table,
+    devtools,
+    dplyr,
+    grDevices,
+    methods,
+    purrr,
+    rlang,
+    scales,
+    stats,
+    tibble,
+    tictoc,
+    tidyr,
+    tidyselect,
+    utils
+Suggests: 
+    Biobase (>= 2.54.0),
+    circlize,
+    ComplexHeatmap (>= 2.10.0),
+    forcats,
+    furrr,
+    future,
+    future.apply,
+    ggbeeswarm,
+    ggExtra,
+    ggplot2,
+    ggrepel,
+    ggsci,
+    ggsignif,
+    glmnet,
+    minfi (>= 1.40.0),
+    mltools,
+    RColorBrewer,
+    reshape2,
+    stringr,
+    SummarizedExperiment (>= 1.24.0),
+    testthat (>= 3.0.0)
+Remotes: 
+    bioc::release/minfi,
+    bioc::release/SummarizedExperiment,
+    bioc::release/ComplexHeatmap,
+    bioc::release/Biobase
+Config/testthat/edition: 3
