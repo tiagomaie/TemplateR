@@ -14,7 +14,7 @@
 #' library("TemplateR")
 #'
 #' # run function
-#' templater_res <- TemplateR(opt)
+#' templater_res <- TemplateR(opt="things", k=0.2)
 #'
 #' # check results
 #' templater_res

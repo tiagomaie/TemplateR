@@ -15,6 +15,9 @@ usethis::use_build_ignore(c(
   "init.r"
 ))
 
+
+usethis::use_readme_rmd()
+
 # use pkg
 usethis::use_package("tictoc")
 usethis::use_package("caret")
