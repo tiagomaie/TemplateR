@@ -56,8 +56,8 @@ usethis::use_package("mltools", "suggests")
 usethis::use_dev_package("SummarizedExperiment", "suggests", remote="bioc::release/SummarizedExperiment")
 
 # remotes
- usethis::use_dev_package("ComplexHeatmap", "suggests", "bioc::release/ComplexHeatmap")
- usethis::use_dev_package("Biobase", "suggests", "bioc::release/Biobase")
+usethis::use_dev_package("ComplexHeatmap", "suggests", "bioc::release/ComplexHeatmap")
+usethis::use_dev_package("Biobase", "suggests", "bioc::release/Biobase")
 
 # import from
 usethis::use_package_doc()

@@ -31,7 +31,9 @@ update_version:
 
 githubactions_pkgdown_site:
 	Rscript -e "usethis::use_pkgdown()"
+	Rscript -e "pkgdown::init_site()"
 	Rscript -e "pkgdown::build_site()"
+	Rscript -e "pkgdown::build_home()"
 	Rscript -e 'usethis::use_github_action("pkgdown")'
 
 githubactions_check:
