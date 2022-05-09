@@ -7,6 +7,7 @@ usethis::proj_activate(".")
 
 # ignore
 usethis::use_build_ignore(c(
+  "Makefile",
   "test_data",
   "devel",
   "update_version.sh",

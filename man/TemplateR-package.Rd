@@ -2,8 +2,8 @@
 % Please edit documentation in R/TemplateR-package.R
 \docType{package}
 \name{TemplateR-package}
-\alias{TemplateR}
 \alias{TemplateR-package}
+\alias{_PACKAGE}
 \title{TemplateR: What the Package Does (One Line, Title Case)}
 \description{
 What the package does (one paragraph).
